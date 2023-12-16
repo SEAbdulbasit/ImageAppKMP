@@ -56,6 +56,7 @@ kotlin {
             implementation(libs.kotlinx.serialization.json)
             implementation(libs.ktor.client.content.negotiation)
             implementation(libs.ktor.serialization.kotlinx.json)
+            api("io.github.qdsfdhvh:image-loader:1.7.1")
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
